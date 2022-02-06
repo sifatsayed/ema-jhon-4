@@ -1,0 +1,22 @@
+.product-detail-container {
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    padding: 8px;
+}
+.main-button {
+    background-color: yellow;
+    border: none;
+    height: 30px;
+    width: 120px;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    cursor: pointer;
+}
+.main-button:hover{
+    background-color: lightgray;
+    transition: all linear .4s;
+}
+.icon-color {
+    color: goldenrod;
+}
