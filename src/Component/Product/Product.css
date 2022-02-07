@@ -16,6 +16,7 @@
 .main-button:hover{
     background-color: lightgray;
     transition: all linear .4s;
+    color: red;
 }
 .icon-color {
     color: goldenrod;

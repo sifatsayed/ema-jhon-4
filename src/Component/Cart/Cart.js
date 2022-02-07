@@ -38,6 +38,9 @@ const Cart = (props) => {
              <p><small>Shipping Cost : {formetNumber(shipping)}</small></p>
              <p>Tax & Vat : {tax}</p>
              <p>Total Product Price : {formetNumber(total+tax+shipping)}</p>
+             {
+                 props.children
+             }
         </div>
     );
 };
