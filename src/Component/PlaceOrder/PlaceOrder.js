@@ -1,5 +1,6 @@
 import React from 'react';
-import image from '../../images/giphy.gif'
+import image from '../../images/giphy.gif';
+
 const PlaceOrder = () => {
     return (
         <div style={{textAlign : "center"}}>

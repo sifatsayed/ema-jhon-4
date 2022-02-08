@@ -27,6 +27,7 @@ const OrderReview = () => {
            <div className="product-container">
              {
                  cart.map(product => <ReveiwItem 
+                    key ={product.key}
                     handleRemove={handleRemove}
                     product={product}></ReveiwItem>)
              }
